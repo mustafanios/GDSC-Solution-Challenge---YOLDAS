@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "881693072937",
+    "project_id": "yoldas2-5fbcb",
+    "storage_bucket": "yoldas2-5fbcb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:881693072937:android:a68610fc953c30dd9cc638",
+        "android_client_info": {
+          "package_name": "com.example.yoldas"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAMC49YyeYFeWfdg-wfG1vyH0feeHl3r7w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

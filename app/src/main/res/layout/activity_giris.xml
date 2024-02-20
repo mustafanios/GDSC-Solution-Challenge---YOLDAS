@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/serhat__community__page_0004"
+    tools:context=".Giris">
+
+    <EditText
+        android:id="@+id/kayit_ol_editEmaill"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="64dp"
+        android:hint="Mail Adresiniz"
+        android:inputType="textEmailAddress"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/kayit_ol_editSifree" />
+
+    <EditText
+        android:id="@+id/kayit_ol_editSifree"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="142dp"
+        android:hint="Şifreniz"
+        android:inputType="textPassword"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:layout_width="265dp"
+        android:layout_height="51dp"
+        android:layout_marginStart="73dp"
+        android:layout_marginTop="39dp"
+        android:background="@color/cardview_shadow_end_color"
+        android:onClick="ButtonKayitiki"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
